@@ -29,5 +29,7 @@ helm upgrade --install <che-release-name> --namespace <che-namespace> -f ./value
 * Keycloak: https://keycloak-<che-namespace>.domain
 * Workspaces servers: https://server-host.domain
 
-#### Local kubernetes
+#### Warning
+
+1. 国内部署或启动Workspace需要拉取很多Docker镜像，需要提前将quay.io/eclipse/所有与Che相关的镜像上传到私有镜像库。
 
